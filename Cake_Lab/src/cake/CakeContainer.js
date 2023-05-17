@@ -61,12 +61,13 @@ const CakeContainer = () => {
 
 	return (
 		<>
+		<CakeForm listOfCakes={listOfCakes} setListOfCakes={setListOfCakes}/>
+
 		{/* <Cake info={listOfCakes[0]} />
         <Cake info={listOfCakes[1]}/>
         <Cake info={listOfCakes[2]}/>   */}
-
-		 	{cakeMenuList}
-			<CakeForm listOfCakes={listOfCakes} setListOfCakes={setListOfCakes}/>
+		
+			{cakeMenuList}
 		</>
 	)
 }
